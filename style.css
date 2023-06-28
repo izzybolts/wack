@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    font-family: 'Press Start 2P', cursive;
+    
+   
+}
+
+.body {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+   
+}
+
+
+
+.grid {
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 476px;
+    height: 476px;
+    
+    padding: 10px;
+    border-radius: 10px;
+   
+  
+}
+
+.square {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: rgba(255, 255, 255, 0.504) 3px solid;
+    margin: 1px;
+   
+}
+
+.mole {
+    background-color: rgb(255, 255, 255);
+}
+
+#reset {
+ 
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder;
+    border-color: whitesmoke;
+    width: 120px;
+    letter-spacing: 1px;
+}
+
+#gameOver {
+    color: blueviolet;
+    margin: 15px 0px;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    margin: 15px 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 22px 0px;
+}
+
+.scoreCard {
+
+    background-color: rgba(0, 0, 0, 0.432);
+    min-width: 350px;
+    max-width: 400px;
+    border-radius: 10px;
+    
+    margin: 20px 0px;
+}
+
+#start-screen {
+    
+    
+  }
+    
